@@ -1,0 +1,17 @@
+
+
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "firstname": "stephen",
+    "lastname":  "addae",
+    "email": "addae@gmail.com",
+    "phonenumber": "+233540430893",
+    "password": "1234567",
+    "confirmPassword": "1234567"
+}
+
+GET http://localhost:3000/auth/text
+Content-Type: application/json
